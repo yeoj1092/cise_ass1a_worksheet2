@@ -9,6 +9,12 @@ import React from 'react';
 
     describe('Addition', () => {
       it('knows that 2 and 2 make 4', () => {
-        expect(2 + 2).toBe(4);
+        expect(2 + 2).toBe(5);
+      });
+    });
+
+    describe('subtraction', () => {
+      it('knows that 4 subtract 2 make 2', () => {
+        expect(4 - 2).toBe(2);
       });
     });

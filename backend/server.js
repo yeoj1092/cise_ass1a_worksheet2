@@ -3,7 +3,7 @@ const articles = require("./dummydata/articles");
 const server = express();
 
 const dotenv = require("dotenv");
-dotenv.config();
+dotenv.config()
 const PORT = process.env.PORT || 5000;
 
 server.get('/', (req,res) => {
@@ -20,4 +20,5 @@ server.get('/api/articles/:id', (req, res) => {
     console.log(req.params);
 });
 
-server.listen(PORT, console.log(`server is working and listening on PORT ${PORT}`));
+server.listen(PORT
+    , console.log(`server is working and listening on PORT ${PORT}`));
